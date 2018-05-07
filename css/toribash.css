@@ -1,0 +1,693 @@
+body {
+  background-color: #f9f9f9;
+  font: 400 1.125em/2 Lato;
+  color: rgb(0, 0, 0);
+}
+
+.designprocess-2 p,
+.problem-8 p {
+  margin-bottom: 1em;
+}
+
+.behance,
+.dribbble,
+.twitter {
+  display: block;
+  float: left;
+  width: 33%;
+  min-height: 29px;
+  font-size: 0.667em;
+  font-weight: 900;
+  line-height: 1.38;
+  text-align: center;
+  color: #4e4f51;
+}
+
+.behance:hover,
+.contacts:hover,
+.dribbble:hover,
+.resume:hover,
+.twitter:hover {
+  text-decoration: underline;
+}
+
+.conclusions {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 120px;
+}
+
+.contacts {
+  display: block;
+  position: absolute;
+  top: 27px;
+  right: 10.0016276041%;
+  z-index: 32;
+  width: 10%;
+  height: 50px;
+  padding-top: 14px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 0.667em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: #4e4f51;
+}
+
+.contacts:active,
+.works:active {
+  color: rgba(78, 79, 81, 0.5);
+}
+
+.designprocess {
+  position: relative;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 120px;
+}
+
+.element {
+  position: relative;
+  z-index: 43;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  height: 500px;
+  margin: 0 auto;
+  background: url('../images/Sketch1.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.email {
+  display: block;
+  width: 300px;
+  margin: 40px auto 0;
+  padding-bottom: 20px;
+  font-size: 0.778em;
+  line-height: 1.38;
+  text-align: center;
+  color: #4e4f51;
+}
+
+.footer {
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.head {
+  float: left;
+  font-size: 2.667em;
+  font-weight: 900;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  height: 112px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.how,
+.who {
+  float: left;
+  width: 280px;
+  height: 420px;
+  margin-left: 40px;
+}
+
+.how .problem,
+.who .problem,
+.why .problem {
+  width: 99.9949596774%;
+  padding-left: 10px;
+}
+
+.image1 {
+  position: relative;
+  z-index: 14;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  height: 350px;
+  margin: 0 auto;
+  background-image: url('../images/CFight1280x720.jpg');
+  background-size: cover;
+  background-position: left top;
+}
+
+.main {
+  position: relative;
+  z-index: 29;
+  width: 100%;
+  height: 500px;
+  margin: 90px auto 0;
+  background: url('../images/CFight1280x720-compressor.jpg') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.problem {
+  float: left;
+  color: rgb(0, 0, 0);
+}
+
+.resume {
+  display: block;
+  position: absolute;
+  top: 27px;
+  right: 0.0032552083%;
+  z-index: 31;
+  width: 10%;
+  height: 50px;
+  padding-top: 14px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 0.667em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: #4e4f51;
+}
+
+.screens {
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.screensimage {
+  width: 920px;
+  height: 574px;
+  margin: 0 auto;
+  background: url('../images/newMulti.png') rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.sketches {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  height: 500px;
+  margin: 0 auto;
+  background: url('../images/oldMulti.JPG') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.social {
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.subhead {
+  float: left;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.889em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.three {
+  position: relative;
+  z-index: 25;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  height: 430px;
+  margin: 0 auto;
+}
+
+.threesub {
+  width: 100%;
+  height: 430px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.title {
+  float: left;
+  margin: 44px 0 0 3.9974%;
+  font-size: 0.667em;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 3px;
+  color: #ff4c4c;
+}
+
+.visualdesign {
+  position: relative;
+  z-index: 7;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 120px;
+}
+
+.why {
+  float: left;
+  width: 280px;
+  height: 420px;
+}
+
+.works {
+  display: block;
+  position: absolute;
+  top: 27px;
+  right: 20.0016276041%;
+  z-index: 33;
+  width: 10%;
+  height: 50px;
+  padding-top: 14px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 0.667em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: #4e4f51;
+}
+
+.works:hover {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+._container {
+  width: 100%;
+}
+
+.designprocess-1 {
+  z-index: 13;
+  padding-bottom: 40px;
+}
+
+.designprocess-2 {
+  z-index: 9;
+  padding-top: 40px;
+}
+
+.problem-10,
+.problem-12,
+.problem-7 {
+  width: 280px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  box-shadow: 0 2px 0 rgb(255, 0, 0);
+  font-size: 1.444em;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.problem-11,
+.problem-13,
+.problem-8 {
+  clear: both;
+  width: 100%;
+  min-width: 700px;
+  max-width: 700px;
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+.problem-1,
+.problem-3,
+.problem-5 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  box-shadow: 0 2px 0 rgb(255, 0, 0);
+  font-size: 1.444em;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.problem-2,
+.problem-4,
+.problem-6 {
+  clear: both;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-size: 0.889em;
+  line-height: 1.6;
+}
+
+.problem-9 {
+  width: 100%;
+  min-width: 700px;
+  max-width: 700px;
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+._container-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 35;
+  height: 90px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+._container-2 {
+  position: relative;
+  z-index: 42;
+  height: 150px;
+  margin: 150px auto 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.problem em {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: italic;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.problem strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 380px) {
+  .conclusions {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 2;
+    width: 252.6315789473%;
+    height: 340px;
+    margin-top: -4415px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .conclusions .problem,
+  .how .problem,
+  .visualdesign .problem,
+  .who .problem,
+  .why .problem {
+    width: 99.7511061946%;
+  }
+
+  .designprocess {
+    position: relative;
+    float: left;
+    clear: both;
+    width: 252.6315789473%;
+    height: 340px;
+    margin-right: 0;
+  }
+
+  .designprocess .problem {
+    width: 99.7511061946%;
+  }
+
+  .element {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 43;
+    margin-top: -1748px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .footer .email,
+  .footer .social {
+    width: 80%;
+  }
+
+  .header .contacts {
+    top: 51px;
+    left: 30%;
+    right: auto;
+    width: 20%;
+  }
+
+  .header .resume {
+    top: 51px;
+    left: 50%;
+    right: auto;
+    width: 20%;
+  }
+
+  .header .title {
+    margin-top: 30px;
+    margin-left: 10%;
+  }
+
+  .header .works {
+    top: 51px;
+    left: 10%;
+    right: auto;
+    width: 20%;
+  }
+
+  .hero .head {
+    font-size: 2.111em;
+  }
+
+  .hero .subhead {
+    font-size: 0.778em;
+  }
+
+  .image1 {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 14;
+    width: 252.6315789473%;
+    margin-top: -1330px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .main {
+    position: relative;
+    float: left;
+    z-index: 29;
+    height: 300px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .main .hero {
+    min-width: 340px;
+    max-width: 380px;
+    height: 300px;
+    padding-top: 80px;
+  }
+
+  .screens {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 4;
+    margin-top: -5320px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .screens .screensimage {
+    margin-top: 10990px;
+  }
+
+  .sketches {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 10;
+    width: 252.6315789473%;
+    margin-top: -1748px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .social .behance {
+    margin-left: 0.1285%;
+  }
+
+  .social .dribbble {
+    margin-left: 0.6065%;
+  }
+
+  .three {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 25;
+    min-width: 340px;
+    max-width: 380px;
+    height: 940px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .three .threesub {
+    float: left;
+    height: 940px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 20px;
+  }
+
+  .threesub .how {
+    clear: both;
+    width: 100%;
+    height: 280px;
+    margin-left: 0;
+  }
+
+  .threesub .who {
+    clear: both;
+    width: 100%;
+    height: 320px;
+    margin-left: 0;
+  }
+
+  .threesub .why {
+    width: 100%;
+    height: 340px;
+  }
+
+  .visualdesign {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 7;
+    width: 252.6315789473%;
+    height: 340px;
+    margin-top: 1757px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .designprocess .problem-9 {
+    margin-top: 135px;
+  }
+
+  .designprocess-1 {
+    z-index: 13;
+    margin-top: 78px;
+    margin-left: 21.31579%;
+  }
+
+  .designprocess-2 {
+    z-index: 9;
+    margin-top: -780px;
+    margin-left: 0;
+  }
+
+  ._container .footer-1,
+  ._container .header-1 {
+    min-width: 340px;
+    max-width: 380px;
+  }
+
+  ._container-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container-2 {
+    position: relative;
+    float: left;
+    z-index: 42;
+    margin-top: -3653px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
