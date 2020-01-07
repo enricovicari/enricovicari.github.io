@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 </head>
 
 <body id="myBody">
@@ -173,11 +173,64 @@
     </div><img class="img-fluid d-block" id="FM9thPic" src="assets/img/OrigamiSetup1.png">
     <div class="container">
         <div id="MeetaBodyText">
-            <p id="MeetaBodyTextParagraph">All these interactive elements were prototyped and tested using the same metholody used for the tools above. I created missions and tested with our colleagues from different teams and included an impossible task at the end. The task was to
-                open 2 popups from 2 different devices at the same time, thing that was not possible with the current prototype. I'd personally consider the background layer as the movable one so if I had to open two popups I would drag the "map" around
+            <p id="MeetaBodyTextParagraph">All these interactive elements were prototyped and tested using the same methodology used for the tools above. I created missions and tested with our colleagues from different teams and included an impossible task at the end. The task was
+                to open 2 popups from 2 different devices at the same time, thing that was not possible with the current prototype. I'd personally consider the background layer as the movable one so if I had to open two popups I would drag the "map" around
                 and click on another device; the testing however showed me that people were more inclined to drag the popup covering the device below to then click on that and arrange the two popups. So even though the task was meant to be failed it still
                 worked out as an excellent source of information and it saved me from one iteration cycle.<br><br>With all the user testing and graphic elements in place, I had a new round of talk with the developers, cleaned up the Figma project a bit
                 and handed off to them.<br></p>
+        </div>
+    </div>
+    <div class="container">
+        <div id="MeetaBodyText">
+            <h2 class="text-left" id="MeetaBodyTextTitle"><strong>Design System &amp;</strong>&nbsp;Visuals<br></h2>
+            <p id="MeetaBodyTextParagraph">As part of this exciting project, I also had to refresh our visual design. If design is our language, the visual part is like a strong accent, making sure we are understood by our users is also affected by the colors we choose and the typography
+                we use. Our previous tools didn't follow any design guidelines whatsoever, so the first thing to do was to create a solid base. Those principles would eventually evolve into well-defined design guidelines and ultimately into a design system.
+                &nbsp;&nbsp;<br><br><strong>Guidelines</strong><br><br>Given a lot of customers were already familiar with our red, I decided to create shades out of it and use them as 'primary' colors. Since our product is data-heavy I wanted to avoid
+                adding a number of colors just to "make it look pretty". What I wanted was to create a design language that could highlight the data since the product we were building was a troubleshooting software, not a fancy content manager. I used
+                shadows and boxes to elevate and isolate specific elements. With all this in mind the first mockups started taking shape in a way that wasn't too bold neither too flat.<br></p>
+        </div>
+    </div><img class="img-fluid d-block" id="FM10thPic" src="assets/img/guidelines.png" draggable="false">
+    <div class="container">
+        <div id="MeetaBodyText">
+            <p id="MeetaBodyTextParagraph">After a quick chat with the developers and countless iterations, we finally reached the "final" (for now) stage of design. We all agreed on the features, on what was going to be there for the MVP and what would be coming in the future releases.
+                Below are screenshots of some screens, plus a bird's-eye view of the Figma project. &nbsp;They all communicate a lot of information, and they do so while always allowing the users to focus on what they're looking for (mainly how the network/device
+                is performing). Everything is also designed with variations, to accommodate those edge-cases that would otherwise result in an improvised solution that was never actually discussed (e.g. device gets disconnected while viewing a time interval
+                in history - or - no log data found with selected filters).</p>
+        </div>
+    </div>
+    <div class="carousel slide" data-ride="carousel" id="carousel-1" style="border-bottom: solid 1px rgb(51,51,51);border-top: solid 1px rgb(51,51,51);">
+        <div class="carousel-inner" role="listbox" style="width: 70%;margin: auto;margin-top: 2%;">
+            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/wizardSettings.png" alt="Slide Image" draggable="false"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/overview.png" alt="Slide Image" draggable="false"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/tableLog.png" alt="Slide Image" draggable="false"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/topology.png" alt="Slide Image" draggable="false"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/birdseyeview.png" alt="Slide Image" draggable="false"></div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev" style="background: rgba(51,51,51,0.1);width: 10%;"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next"
+                href="#carousel-1" role="button" data-slide="next" style="background: rgba(51,51,51,0.1);width: 10%;"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+        <ol class="carousel-indicators" style="opacity: 0;">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+            <li data-target="#carousel-1" data-slide-to="3"></li>
+            <li data-target="#carousel-1" data-slide-to="4"></li>
+        </ol>
+    </div>
+    <div class="container">
+        <div id="MeetaBodyText">
+            <p id="MeetaBodyTextParagraph"><strong>Not just 2D</strong><br><br>Since a wireless network is also a very physical thing, instead of spending hours working on illustrations that would eventually become obsolete I worked on 3D assets that could easily be edited and updated.
+                Our hardware goes under constant improvements which means a device that is produced today might have more plugs or fewer LEDs in our next production cycle. I used Blender 2.80 to create the models then the integrated render engine Eevee
+                to create the images. These elements were then used both in our digital product (for parts like the initial wizard) and our brochures/manuals.<br></p>
+        </div>
+    </div><img class="img-fluid d-block" id="FM11thPic" src="assets/img/3dIsometric.png" draggable="false"><img class="img-fluid d-block" id="FM12thPic" src="assets/img/3dIcons.png" draggable="false"><img class="img-fluid d-block" id="FM13thPic" src="assets/img/FirstRun01.gif"
+        draggable="false">
+    <div class="container">
+        <div id="MeetaBodyText">
+            <p id="MeetaBodyTextParagraph"><strong>ZeroHeight + Storybook + Theo</strong><br><br>With everything (or at least a first working release) set, we were ready to take things next step. I looked around and asked questions and eventually decided with my team of developers
+                that with our current shape (design in Figma and code in Angular) the smartest choice would have been to use Storybook to store our JS components and Zeroheight as a central hub for both design and codes. We also decided to use Salesforce
+                UX team's amazing product and give it a go for our personal set of design tokens. The potentiality with this approach is massive and after about one year I'm extremely happy to see that both design and development are now travelling on
+                what's soon going to be a single path.<br><br>In the near future I'll explore tools like Modulz, ShiftStudio and Alva to hopefully fill the gap even more, but in the meanwhile at least me and my team will be communicating in a much more
+                efficient way.</p>
         </div>
     </div>
     <div class="container">
